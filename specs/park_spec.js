@@ -49,26 +49,26 @@ describe("Park", function(){
     assert.strictEqual(1,park.getNoWithMoreThan2Offspring());
   })
 
-  // it ("calculate number of dinosaurs after 1 year starting with one dinosaur1", function() {
-  //   var years = 1;
-  //   park.add(dinosaur1);
-  //   assert.strictEqual(3, park.getNoOfDinosaursAfterYear1(years));
+  it ("calculate number of dinosaurs after 1 year starting with one dinosaur1", function() {
+    var years = 1;
+    park.add(dinosaur1);
+    assert.strictEqual(3, park.getNoOfDinosaursAfterYear1(years));
 
-  // })
+  })
 
-  // it ("calculate number of dinosaurs after 1 year starting with two dinosaur1", function() {
-  //   var years = 1;
-  //   park.add(dinosaur1);
-  //   park.add(dinosaur1);
-  //   assert.strictEqual(6, park.getNoOfDinosaursAfterYear1(years));
-  // })
+  it ("calculate number of dinosaurs after 1 year starting with two dinosaur1", function() {
+    var years = 1;
+    park.add(dinosaur1);
+    park.add(dinosaur1);
+    assert.strictEqual(6, park.getNoOfDinosaursAfterYear1(years));
+  })
 
 
-  // it ("calculate number of dinosaurs after 2 year starting with one dinosaur1", function() {
-  //   var years = 2;
-  //   park.add(dinosaur1);
-  //   assert.strictEqual(9,park.getNoOfDinosaursAfterYear1(years));
-  // })
+  it ("calculate number of dinosaurs after 2 year starting with one dinosaur1", function() {
+    var years = 2;
+    park.add(dinosaur1);
+    assert.strictEqual(9,park.getNoOfDinosaursAfterYear1(years));
+  })
 
   it ("calculate number of dinosaurs after 2 year starting with two dinosaur1", function() {
     var years = 2;

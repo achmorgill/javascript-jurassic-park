@@ -48,7 +48,7 @@ Park.prototype = {
 
       console.log('i ' + i);
       console.log("before total " + total)
-        total += (this.enclosureArray[i].noOfOffspring) * j+1;
+        total += (this.enclosureArray[i].noOfOffspring) * years;
         console.log("total" + total);
       }
     }
